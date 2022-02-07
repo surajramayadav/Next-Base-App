@@ -1,0 +1,27 @@
+.m-header-desc{
+    padding : 1rem 3rem;
+}
+
+.inside-m-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    background-color: #02042b;
+}
+
+.m-header-sub-list{
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.m-header-sub-list > h5 {
+    padding: 0.7rem 0rem;
+}
+
+.m-header-sub-list > p {
+    padding: 0.2rem 0rem 0.2rem 1rem;
+}
+
+.m-header-sub-list > p:last-child {
+    margin-bottom: 5rem;
+}

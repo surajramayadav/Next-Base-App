@@ -1,0 +1,85 @@
+/*  
+.dropdownWrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    display: none;
+  }
+    
+  .dropdownWrapperOpen {
+    display: block;
+  }
+  
+  .dropdownBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFFBF;
+    z-index: 99;
+    display: none;
+  }
+  
+  .dropdownBackdropOpen {
+    display: block;
+  } */
+
+.dropDownContainer {
+  background-color: white;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.22);
+  width: 100%;
+  padding: 1rem 5rem 1rem 5rem; 
+  position: absolute;
+  z-index: 9999;
+}
+
+.dropDownList > h3 {
+  margin-bottom: 1rem;
+}
+
+.dropDownList p {
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  color: black;
+}
+
+.MenuItems {
+  cursor: pointer;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 15rem;
+  margin: 0rem 0.5rem;
+}
+
+.MenuItemsActive {
+  color: white !important;
+  background-color: #030b2a;
+  border-radius: 10px;
+}
+
+.MenuItems:hover {
+  color: white;
+  background-color: #030b2a;
+  border-radius: 10px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+.gridItem {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 0.5rem 0rem;
+  font-size: 30px;
+  text-align: left;
+}
+
+.gridHeader{
+  padding: 1rem 0rem;
+}
